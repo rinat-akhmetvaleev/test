@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Test task</title>
+</head>
+<body>
+    <div class="menu">
+        <div class="container blok">
+            <ul>
+                <li><a href="#">Личная информация</a></li>
+                <li><a href="#">Опыт</a></li>
+                <li><a href="#">JavaScript</a></li>
+                <li><a href="#">О себе</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Анкета</h1>
+    </div>
+
+    <div class="personal">
+            <div class="container">
+                <img src="icon/personal.png" alt="Personal info">
+                <h2>Личная информация</h2>
+                <input type="text" placeholder="ФИО">
+                <form>
+                    <div class="__select" data-state="">
+                      <div class="__select__title" data-default="Option 0">Год рождения</div>
+                      <div class="__select__content">
+                        <input id="singleSelect0" class="__select__input" type="radio" name="singleSelect" checked />
+                        <label for="singleSelect0" class="__select__label">1998</label>
+                        <input id="singleSelect1" class="__select__input" type="radio" name="singleSelect" />
+                        <label for="singleSelect1" class="__select__label">1997</label>
+                        <input id="singleSelect2" class="__select__input" type="radio" name="singleSelect" />
+                        <label for="singleSelect2" class="__select__label">1996</label>
+                        <input id="singleSelect3" class="__select__input" type="radio" name="singleSelect" />
+                        <label for="singleSelect3" class="__select__label">1995</label>
+                        <input id="singleSelect4" class="__select__input" type="radio" name="singleSelect" />
+                        <label for="singleSelect4" class="__select__label">1994</label>
+                        <input id="singleSelect4" class="__select__input" type="radio" name="singleSelect" />
+                        <label for="singleSelect4" class="__select__label">1993</label>
+                        <input id="singleSelect4" class="__select__input" type="radio" name="singleSelect" />
+                        <label for="singleSelect4" class="__select__label">1992</label>
+                      </div>
+                    </div>
+                </form>
+                <input type="text" placeholder="Место проживания">
+                <input type="text" placeholder="Skype">
+                <input type="text" placeholder="E-mail">
+            </div>
+    </div>
+    <div class="experience">
+        <div class="container">
+            <img src="icon/experience.png" alt="Experience">
+            <h2>Расскажите о своем опыте</h2>
+
+            <div class="experience_wrap">
+                <input type="checkbox" id="bem" checked>
+                <label for="bem" class="bem">БЭМ/OOCSS</label>
+                <input type="checkbox" id="preprocessors" checked>
+                <label for="preprocessors" class="preprocessors">Stylus/LESS/SASS</label>
+                <input type="checkbox" id="php">
+                <label for="php" class="php">Знаком с PHP</label>
+                <input type="checkbox" id="semantic" checked>
+                <label for="semantic" class="semantic">Верстаю семантично</label>
+                <input type="checkbox" id="cms">
+                <label for="cms" class="cms">Знаю CMS ModX</label>
+                <input type="checkbox" id="gulp">
+                <label for="gulp" class="gulp">Gulp/GRUNT</label>
+                <input type="checkbox" id="webpuck">
+                <label for="webpuck" class="webpuck">Webpuck</label>
+                <input type="checkbox" id="jquery" checked>
+                <label for="jquery" class="jquery">jQuery</label>
+                <input type="checkbox" id="git" checked>
+                <label for="git" class="git">Использую Git</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="js">
+        <div class="container">
+            <img src="icon/js.png" alt="JavaScript">
+            <h2>Уровень владения JavaScript</h2>
+
+            <div class="js_wrap">
+                <div id="slider"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about">
+        <div class="container">
+            <img src="icon/about.png" alt="About Us">
+            <h2>Расскажите о себе</h2>
+            <p>Напишите несколько предложений, чем привлекла вакансия и что вы ожидаете от работы у нас.</p>
+    
+            <textarea name="" id="" cols="30" rows="10" placeholder="Понравилась тем, что..."></textarea>
+        </div>
+    </div>
+    <div class="container">
+        <button>Готово</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>  
+    <script src="jquery.js"></script>
+</body>
+</html>
